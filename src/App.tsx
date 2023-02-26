@@ -1,20 +1,21 @@
 import { useState } from "react";
 
-import { Greet } from "./components/Greet";
-import { Person } from "./components/Person";
-import { PersonList } from "./components/PersonList";
-import { Button } from "@nextui-org/react";
-import { PersonCard } from "./components/laith academy tutorial/Card";
-import { CardList } from "./components/laith academy tutorial/CardList";
+// import { Greet } from "./components/Greet";
+// import { Person } from "./components/Person";
+// import { PersonList } from "./components/PersonList";
+// import { Button } from "@nextui-org/react";
+// import { PersonCard } from "./components/laith academy tutorial/Card";
+// import { CardList } from "./components/laith academy tutorial/CardList";
 import { PersonApp } from "./components/laith academy tutorial/PersonApp";
 
 function App() {
+  //eslint-disable-next-line
   const personName = {
     id: 1,
     first: "Ashfaq",
     last: "Kabir",
   };
-
+  //eslint-disable-next-line
   const nameList = [
     {
       first: "Ashfaq",
@@ -30,7 +31,10 @@ function App() {
     },
   ];
 
+  //eslint-disable-next-line
   const [number, setNumber] = useState<number | string>(5);
+
+  //eslint-disable-next-line
   const changeNumber = () => {
     setNumber("true");
   };
